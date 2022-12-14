@@ -9,8 +9,24 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * From UH Branding: https://www.uh.edu/brand/brand-identity/style-guide/
+ * For UH Websites: https://www.uh.edu/marcom/guidelines-policies/web-style/
+ * Text color needs to be white over brick, chocolate, forest, and black
+ * Text can be either white or black over red, gray, green, and ocher
+ * Text color needs to be black over teal, gold, cream, white, and mustard.
+ * League gothic is Headline font - all caps, Source Sans Pro and Crimson are allowed for body.
  */
 :root {
+  --uh-primary-red: #C8102E;
+  --uh-primary-teal: #00B388;
+  --uh-primary-gold: #F6BE00;
+  --uh-primary-gray: #888B8D;
+  --uh-primary-cream: #FFF9D9;
+  --uh-primary-white: #FFFFFF;
+  --uh-secondary-chocolate: #640817;
+  --uh-secondary-forest: #005950;
+  --uh-secondary-ocher: #B97800;
+  --uh-secondary-black: #000000;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -53,6 +69,9 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
+  --uh-head-league-gothic: 'League Gothic', sans-serif;
+  --uh-body-source-sans-pro: 'Source Sans Pro', sans-serif;
+  --uh-body-crimson-pro: 'Crimson Pro', serif;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -60,7 +79,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #000;
   --bs-body-bg: #fff;
 }
 
@@ -78,7 +97,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: var(--uh-body-source-sans-pro);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -11303,7 +11322,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/agrawal-sunrise.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -11359,7 +11378,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/agrawal-sunrise.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
